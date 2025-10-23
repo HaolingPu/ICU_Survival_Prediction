@@ -1,6 +1,6 @@
 # ICU Survival Prediction using Machine Learning
 
-A comprehensive machine learning project for predicting patient mortality in intensive care units. Built as part of EECS 445 (Introduction to Machine Learning) at the University of Michigan.
+A comprehensive machine learning project for predicting patient mortality in intensive care units.
 
 ## 🎯 Project Overview
 
@@ -311,7 +311,7 @@ CI = (np.percentile(scores, 2.5), np.percentile(scores, 97.5))
 
 ### Output Validation
 ```bash
-python test_output.py -i uniqname.csv
+python test_output.py -i phling.csv
 ```
 
 Ensures proper format for challenge submission:
@@ -325,15 +325,9 @@ Ensures proper format for challenge submission:
 - [ROC Curve Analysis](https://scikit-learn.org/stable/modules/model_evaluation.html#roc-metrics)
 - [Confusion Matrix Guide](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html)
 
-## 🔒 Academic Integrity
-
-This project was completed as part of EECS 445 at the University of Michigan. The code represents my own work and understanding of machine learning concepts applied to healthcare data.
-
-**Note**: If you are currently taking EECS 445, please adhere to the course's academic integrity policies. This repository is intended as a portfolio piece and learning reference.
-
 ## 📧 Contact
 
-Your Name - [GitHub](https://github.com/YOUR_USERNAME)
+Your Name - [GitHub](https://github.com/HaolingPu)
 
 ---
 
