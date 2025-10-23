@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+env/
+venv/
+*.egg-info/
+
+# Data files (太大，不要提交)
+data/files/
+*.csv
+
+# PDFs (规格文档不需要提交)
+*.pdf
+
+# Images (可选，看你是否想提交)
+# *.png
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
